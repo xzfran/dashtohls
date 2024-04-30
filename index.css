@@ -1,0 +1,85 @@
+.header-container {
+    position: relative;
+    top: 40px;
+}
+.header-container h1 {
+    font-family: Georgia;
+    font-size: 50px;
+    color: #334AFF;
+    text-align: center;
+}
+
+.main-container {
+    position: relative;
+    top: 75px;
+    width: 70%;
+    min-width: 615px;
+    margin: auto;
+    border: 1px solid #606060;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#loadFromURL {
+    display: inline;
+}
+#loadFromFile {
+    display: none;
+}
+#manifestConversion select{
+    width: 8%;
+    margin: 10px 0;
+    display: inline;
+    font-size: 20px;
+}
+#manifestConversion input[type=text]{
+    width: 78%;
+    margin: auto;
+    display: inline;
+    float: center;
+}
+#manifestConversion input[type=File]{
+    width: 50%;
+    margin: 10px 0;
+    display: inline;
+    font-size: 20px;
+}
+#manifestConversion h4{
+    display: inline;
+    font-size: 20px;
+}
+#manifestConversion button{
+    margin: 20px 0;
+    padding: 8px;
+    width: 50%;
+    font-size: 22px;
+    text-align: center;
+    background-color: DodgerBlue;
+}
+#manifestConversion a{
+    margin: 20px 0;
+    padding: 8px;
+    width: 50%;
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid DodgerBlue;
+    float: right;
+}
+
+.videoCentered {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 0 0;
+    display: block
+}
+
+.footer-container {
+    position: relative;
+    top: 80px;
+    margin: auto;
+    width: 70%;
+}
+.footer-container img {
+    width: 10%;
+}
